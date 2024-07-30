@@ -1,0 +1,359 @@
+@font-face {
+    font-family: 'DINNextLTPro-BoldCondensed';
+    src: url('assets/fonts/DINNextLTPro-BoldCondensed.otf');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DINNextLTPro-MediumCond';
+    src: url('assets/fonts/DINNextLTPro-MediumCond.otf');
+    font-style: normal;
+}
+
+/* copy */
+h1 {
+    font-family: 'DINNextLTPro-BoldCondensed';
+    font-size: 2em;
+    padding-top: 0px;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-family: 'DINNextLTPro-BoldCondensed';
+    font-size: calc(1.325rem + 0.9vw);
+    text-transform: uppercase;
+    color: #ffffff !important;
+    text-align: center;
+    padding-top: 20px;
+}
+
+h3 {
+    font-family: 'DINNextLTPro-BoldCondensed';
+    font-size: calc(1.3rem + 0.6vw);
+    padding-top: 10px;
+    text-transform: none;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+h4 {
+    font-family: 'DINNextLTPro-BoldCondensed';
+    font-size: calc(1.2rem + 0.275vw);
+    text-transform: uppercase;
+    font-weight: 100;
+    color: #ffffff;
+    text-align: center;
+}
+
+p {
+    font-family: 'DINNextLTPro-MediumCond';
+    font-size: 1.1em;
+    padding-top: 10px;
+    text-transform: none;
+    font-weight: normal;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+span#highlight {
+    color: inherit;
+    font-family: 'DINNextLTPro-BoldCondensed';
+    text-transform: uppercase;
+    color: #F80F30;
+}
+
+/* buttons */
+.btn-primary {
+    font-family: 'DINNextLTPro-BoldCondensed';
+    text-transform: uppercase;
+    box-shadow: none;
+    width: 100%;
+    color: #ffffff;
+    outline: none;
+    padding-bottom: 10px;
+    border-radius: 0px;
+    margin-top: 30px;
+    padding-top: 10px;
+    background-color: #CEB686;
+    border-width: 0px;
+    font-size: 1.1em;
+}
+
+.btn-primary:focus,
+.btn-primary:hover,
+.btn-primary:active {
+    font-family: 'DINNextLTPro-BoldCondensed';
+    box-shadow: none;
+    text-transform: uppercase;
+    background: #ffffff !important;
+    width: 100%;
+    color: #CEB686;
+    outline: none;
+    border-radius: 0px;
+
+    /* filter: brightness(90%); */
+}
+
+/* forms */
+.input-date {
+    color: #ffffff;
+    background-color: transparent;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    font-size: 1em;
+    padding-top: 0.4em;
+    padding-bottom: 0.4em;
+    border-radius: 0px;
+    border-width: 2px;
+    border-color: #ffffff;
+}
+
+.age-gate-row {
+    position: relative;
+    isolation: isolate
+    ;
+}
+
+.age-gate {
+    display: block;
+    align-content: center;
+    box-sizing: border-box;
+    padding-top: 20px;
+}
+
+.form {
+    display: block;
+    margin-top: 0em;
+}
+
+.age-confirmation {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+label {
+    font-family: 'DINNextLTPro-BoldCondensed';
+    padding: 10px 0px 0px;
+    color: #ffffff;
+}
+
+input::-webkit-calendar-picker-indicator {
+    display: none !important;
+}
+
+.form-control {
+    font-family: 'DINNextLTPro-MediumCond' !important;
+    font-size: 0.9em;
+    color: #ffffff;
+    box-shadow: none;
+
+    /* padding-top: 0.5em;
+    padding-bottom: 0.5em; */
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    border-radius: 0px;
+    height: 2.5em;
+}
+
+.form-control:focus {
+    font-family: 'DINNextLTPro-MediumCond' !important;
+    box-shadow: none;
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+}
+
+select.form-control {
+    font-family: 'DINNextLTPro-MediumCond' !important;
+    -webkit-appearance: menulist;
+    color: inherit;
+    font-size: 0.9em;
+    color: #ffffff;
+
+    /* padding-top: 0.7em;
+    padding-bottom: 0.7em;
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='none' viewBox='0 0 16 16'%3E%3Cpath fill='%23362d59' fill-rule='evenodd' d='M12.53 5.47a.75.75 0 0 1 0 1.06l-4 4a.75.75 0 0 1-1.06 0l-4-4a.75.75 0 0 1 1.06-1.06L8 8.94l3.47-3.47a.75.75 0 0 1 1.06 0Z' clip-rule='evenodd'/%3E%3C/svg%3E");
+    background-position: right .5em top 50%; 
+    background-repeat: no-repeat; */
+    height: 2.5em;
+}
+
+option {
+    font-family: 'DINNextLTPro-MediumCond' !important;
+    color: #ffffff;
+    font-size: 0.9em;
+}
+
+.aria-labelledby {
+    color: #818181;
+}
+
+input#customFile.upload-file {
+    display: flex;
+    color: #ffffff;
+    border-width: 13px;
+}
+
+.form-check-input {
+    border-radius: 0px !important;
+    min-width: 1em;
+    min-height: 1em;
+    background-color: transparent;
+    border: 2px solid #ffffff;
+}
+
+.form-check-input:checked {
+    background-color: #CEB686;
+    border-width: 2px;
+    border-color: #CEB686;
+    box-shadow: none;
+}
+
+.form-check-input:focus {
+    box-shadow: none;
+    border-color: #CEB686;
+}
+
+.form-check {
+    display: inline-flex;
+    align-items: baseline;
+}
+
+/* placeholders */
+.form-control::placeholder {
+    font-family: 'DINNextLTPro-MediumCond' !important;
+    color: #818181;
+    opacity: 1;
+    font-size: 0.9em;
+}
+
+::placeholder {
+    font-family: 'DINNextLTPro-MediumCond' !important;
+    color: #818181;
+    font-size: 0.9em;
+}
+
+input[type="text"].form-control::-webkit-input-placeholder {
+    font-family: 'DINNextLTPro-MediumCond' !important;
+    color: #818181;
+    font-size: 0.9em;
+}
+
+/* links */
+a {
+    color: #CEB686 !important;
+    text-transform: none;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #CEB686;
+}
+
+/* Mobile rules */
+@media (max-width:992px) {
+    body {
+        overflow-x: hidden !important;
+        margin: 0;
+        padding: 0;
+    }
+
+    #extra-pad.body-content {
+        padding-bottom: 22vh;
+    }
+
+    #desktop.hero,
+    #desktop.footer {
+        visibility: hidden;
+        display: none;
+    }
+
+    .hero #desktop {
+        visibility: hidden;
+        display: none;
+    }
+}
+
+@media (min-height: 920px) and (max-height: 1050px) {
+}
+
+/* Desktop rules */
+@media (min-width:992px) {
+    .heading-line {
+        padding-top: 0.9em;
+    }
+
+    #mobile.footer {
+        visibility: hidden;
+        display: none;
+    }
+
+    .hero #mobile {
+        visibility: hidden;
+        display: none;
+    }
+}
+
+/* general */
+.container-fluid {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.row {
+    --bs-gutter-x: 0 !important;
+    --bs-gutter-y: 0 !important;
+}
+
+.body-content {
+    padding-bottom: 10vh;
+}
+
+body {
+    background-color: #000000;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 95vh;
+}
+
+html {
+    overflow-x: hidden !important;
+}
+
+.logo {
+    padding-top: 10px;
+    padding-bottom: 50px;
+    text-align: center;
+    margin-top: -220px;
+    position: relative;
+    z-index: 2;
+}
+
+.heading {
+    margin-top: -60px;
+    padding-bottom: 10px;
+}
+
+hr {
+    color: #ffffff;
+    border: solid 1px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 1;
+}
+
+/* header */
+.hero {
+    width: 100%;
+}
+
+
+
